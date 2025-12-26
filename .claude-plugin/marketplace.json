@@ -3,13 +3,17 @@
   "owner": {
     "name": "Muratcan Koylan"
   },
-  "description": "Marketplace for Context Engineering skills library",
+  "metadata": {
+    "description": "Marketplace for Context Engineering skills library",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "context-engineering",
       "description": "Production-grade Agent Skills for context engineering. Includes strategies for context window management, multi-agent orchestration, memory systems, and advanced LLM-as-a-Judge evaluation frameworks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./skills",
+      "category": "development",
       "strict": false,
       "author": {
         "name": "Muratcan Koylan"
